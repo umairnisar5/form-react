@@ -4,10 +4,10 @@ const App = () => {
     const [name , setName] = useState("");
     const [fullName ,setFullNmae ] = useState(); 
 
-    // const inputEvent = (Event) =>{
+    const inputEvent = (Event) =>{
 
-    //     setName(Event.target.value);
-    // };
+        setName(Event.target.value);
+    };
 
     // const onSubmit = () => {
     //     setFullNmae (name);  
